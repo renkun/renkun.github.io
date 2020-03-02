@@ -589,6 +589,9 @@ code {
     font-family: Fira Code,Monaco, Menlo, Consolas,DOS,  "Courier New", monospace !important
 }
 
+a.fancybox-nav:hover {
+    background: null
+}
 .fancybox-close:hover {
     background: url("../fancybox/fancybox_sprite.png")
 }
