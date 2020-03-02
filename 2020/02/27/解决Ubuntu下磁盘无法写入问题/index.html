@@ -10,7 +10,7 @@
   <meta name="author" content="Kun Ren">
   
   <meta name="description" content="症状服务器上运行的程序报错，查询运行日志提示写入磁盘失败。删除了一些日志、临时文件等，短时间运行成功，但是过一阵子又出问题了。
-排查过程运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。运行命令 df -i果然发现inodes占用100%
+排查过程运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。运行命令 df -i 果然发现inodes占用100%
 如下是结局问题记录：
 
 感觉是哪个程序运行产生日志或者临时文件比较多，所以需要去找到底哪里文件比较多
@@ -164,7 +164,7 @@ var _hmt = _hmt || [];
 	  		
 
 	  <h2 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h2><p>服务器上运行的程序报错，查询运行日志提示写入磁盘失败。<br>删除了一些日志、临时文件等，短时间运行成功，但是过一阵子又出问题了。</p>
-<h2 id="排查过程"><a href="#排查过程" class="headerlink" title="排查过程"></a>排查过程</h2><p>运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件<br>搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。<br><strong>运行命令 <code>df -i</code>果然发现inodes占用100%</strong></p>
+<h2 id="排查过程"><a href="#排查过程" class="headerlink" title="排查过程"></a>排查过程</h2><p>运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件<br>搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。<br><strong>运行命令</strong> <code>df -i</code> <strong>果然发现inodes占用100%</strong></p>
 <p>如下是结局问题记录：</p>
 <ol>
 <li><p>感觉是哪个程序运行产生日志或者临时文件比较多，所以需要去找到底哪里文件比较多</p>
@@ -200,14 +200,6 @@ var _hmt = _hmt || [];
 
 <p>应该是</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* * * * * /home/ubuntu/vr/bin/kill_closeWait.sh &gt;/dev/null 2&gt;&amp;1</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
 	  <div class="article-footer-copyright">
 
     本博客采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议(CC BY-NC-SA 4.0) 发布.
@@ -227,7 +219,8 @@ var _hmt = _hmt || [];
 
     
     
-    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i>Prev</a>
+    <a href="/2020/03/03/send-receive-ble-serial-data-in-javascript/" type="button" class="btn btn-default"><i
+                class="fa fa-arrow-circle-o-left"></i> Prev</a>
     
 
     <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
