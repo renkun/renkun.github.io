@@ -163,8 +163,8 @@ var _hmt = _hmt || [];
 	<div class="mypage">		
 	  		
 
-	  <h2 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h2><p>服务器上运行的程序报错，查询运行日志提示写入磁盘失败。<br>删除了一些日志、临时文件等，短时间运行成功，但是过一阵子又出问题了。</p>
-<h2 id="排查过程"><a href="#排查过程" class="headerlink" title="排查过程"></a>排查过程</h2><p>运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件<br>搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。<br><strong>运行命令</strong> <code>df -i</code> <strong>果然发现inodes占用100%</strong></p>
+	  <h4 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h4><p>服务器上运行的程序报错，查询运行日志提示写入磁盘失败。<br>删除了一些日志、临时文件等，短时间运行成功，但是过一阵子又出问题了。</p>
+<h4 id="排查过程"><a href="#排查过程" class="headerlink" title="排查过程"></a>排查过程</h4><p>运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件<br>搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。<br><strong>运行命令</strong> <code>df -i</code> <strong>果然发现inodes占用100%</strong></p>
 <p>如下是结局问题记录：</p>
 <ol>
 <li><p>感觉是哪个程序运行产生日志或者临时文件比较多，所以需要去找到底哪里文件比较多</p>
@@ -190,7 +190,7 @@ var _hmt = _hmt || [];
 <p>再运行发现文件减少了很多</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="keyword">for</span> i <span class="keyword">in</span> /var/spool/postfix/*; <span class="keyword">do</span> <span class="built_in">echo</span> <span class="variable">$i</span>;sudo find <span class="variable">$i</span> | wc -l; <span class="keyword">done</span></span></span><br></pre></td></tr></table></figure>
 
-<h2 id="解决根源问题"><a href="#解决根源问题" class="headerlink" title="解决根源问题"></a>解决根源问题</h2><p>到底是哪里的问题产生的文件呢？？？网上一般说是和crontab有关</p>
+<h4 id="解决根源问题"><a href="#解决根源问题" class="headerlink" title="解决根源问题"></a>解决根源问题</h4><p>到底是哪里的问题产生的文件呢？？？网上一般说是和crontab有关</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo vi /etc/crontab</span></span><br></pre></td></tr></table></figure>
 <p>是系统默认的，无异议。<br>运行ubuntu 帐号下的</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> crontab -e</span></span><br></pre></td></tr></table></figure>

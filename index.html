@@ -217,8 +217,8 @@ var _hmt = _hmt || [];
   <div class="row">
 	
 	
-		<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>使用BLE的透传方式通过手机端收发数据。协议定义的是AT指令。本文主要是来阐述下怎么进行数据转换，并且发送出去。</p>
-<h2 id="Data-Progress-for-Sending"><a href="#Data-Progress-for-Sending" class="headerlink" title="Data Progress for Sending"></a>Data Progress for Sending</h2><p>命令内容本身是字符串，如：<code>AT+STATUS?</code>。</p>
+		<h4 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h4><p>使用BLE的透传方式通过手机端收发数据。协议定义的是AT指令。本文主要是来阐述下怎么进行数据转换，并且发送出去。</p>
+<h4 id="Data-Progress-for-Sending"><a href="#Data-Progress-for-Sending" class="headerlink" title="Data Progress for Sending"></a>Data Progress for Sending</h4><p>命令内容本身是字符串，如：<code>AT+STATUS?</code>。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> command = <span class="string">'AT+STATUS'</span>;</span><br></pre></td></tr></table></figure>
 
 <p>发送命令需要以换行符结尾，根据设备确定，一般是以<code>\r\n</code>结尾。需要在命令后加上。</p>
@@ -239,8 +239,8 @@ var _hmt = _hmt || [];
   <div class="row">
 	
 	
-		<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>使用BLE的透传方式通过手机端收发数据。协议定义的是AT指令。本文主要是来阐述下怎么进行数据转换，并且发送出去。</p>
-<h2 id="Data-Progress-for-Sending"><a href="#Data-Progress-for-Sending" class="headerlink" title="Data Progress for Sending"></a>Data Progress for Sending</h2><p>命令内容本身是字符串，如：<code>AT+STATUS?</code>。</p>
+		<h4 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h4><p>使用BLE的透传方式通过手机端收发数据。协议定义的是AT指令。本文主要是来阐述下怎么进行数据转换，并且发送出去。</p>
+<h4 id="Data-Progress-for-Sending"><a href="#Data-Progress-for-Sending" class="headerlink" title="Data Progress for Sending"></a>Data Progress for Sending</h4><p>命令内容本身是字符串，如：<code>AT+STATUS?</code>。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> command = <span class="string">'AT+STATUS'</span>;</span><br></pre></td></tr></table></figure>
 
 <p>发送命令需要以换行符结尾，根据设备确定，一般是以<code>\r\n</code>结尾。需要在命令后加上。</p>
@@ -277,8 +277,8 @@ var _hmt = _hmt || [];
   <div class="row">
 	
 	
-		<h2 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h2><p>服务器上运行的程序报错，查询运行日志提示写入磁盘失败。<br>删除了一些日志、临时文件等，短时间运行成功，但是过一阵子又出问题了。</p>
-<h2 id="排查过程"><a href="#排查过程" class="headerlink" title="排查过程"></a>排查过程</h2><p>运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件<br>搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。<br><strong>运行命令</strong> <code>df -i</code> <strong>果然发现inodes占用100%</strong></p>
+		<h4 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h4><p>服务器上运行的程序报错，查询运行日志提示写入磁盘失败。<br>删除了一些日志、临时文件等，短时间运行成功，但是过一阵子又出问题了。</p>
+<h4 id="排查过程"><a href="#排查过程" class="headerlink" title="排查过程"></a>排查过程</h4><p>运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件<br>搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。<br><strong>运行命令</strong> <code>df -i</code> <strong>果然发现inodes占用100%</strong></p>
 <p>如下是结局问题记录：</p>
 <ol>
 <li><p>感觉是哪个程序运行产生日志或者临时文件比较多，所以需要去找到底哪里文件比较多</p>
@@ -314,8 +314,8 @@ var _hmt = _hmt || [];
   <div class="row">
 	
 	
-		<h2 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h2><p>服务器上运行的程序报错，查询运行日志提示写入磁盘失败。<br>删除了一些日志、临时文件等，短时间运行成功，但是过一阵子又出问题了。</p>
-<h2 id="排查过程"><a href="#排查过程" class="headerlink" title="排查过程"></a>排查过程</h2><p>运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件<br>搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。<br><strong>运行命令</strong> <code>df -i</code> <strong>果然发现inodes占用100%</strong></p>
+		<h4 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h4><p>服务器上运行的程序报错，查询运行日志提示写入磁盘失败。<br>删除了一些日志、临时文件等，短时间运行成功，但是过一阵子又出问题了。</p>
+<h4 id="排查过程"><a href="#排查过程" class="headerlink" title="排查过程"></a>排查过程</h4><p>运行df命令发现磁盘占用不多，很奇怪。。。折腾好久。。。只能临时不定时删除一些文件<br>搜索时候，有人提到磁盘满，一个是磁盘空间慢，一个是磁盘inodes索引满。<br><strong>运行命令</strong> <code>df -i</code> <strong>果然发现inodes占用100%</strong></p>
 <p>如下是结局问题记录：</p>
 <ol>
 <li><p>感觉是哪个程序运行产生日志或者临时文件比较多，所以需要去找到底哪里文件比较多</p>
@@ -367,7 +367,7 @@ var _hmt = _hmt || [];
   <div class="row">
 	
 	
-		<h1 id="二月初三：晴而无云"><a href="#二月初三：晴而无云" class="headerlink" title="二月初三：晴而无云"></a>二月初三：晴而无云</h1><p>天略热燥，须再松动琴弦。然一曲未完，便有电话呼唤。须臾之间，又有消息若干。一日下来，代码未几，文档亦未成篇。正月已过，恍然思绪万千。消逝年华，回首徒留遗憾。</p>
+		<h4 id="二月初三：晴而无云"><a href="#二月初三：晴而无云" class="headerlink" title="二月初三：晴而无云"></a>二月初三：晴而无云</h4><p>天略热燥，须再松动琴弦。然一曲未完，便有电话呼唤。须臾之间，又有消息若干。一日下来，代码未几，文档亦未成篇。正月已过，恍然思绪万千。消逝年华，回首徒留遗憾。</p>
 <p>万里悲秋常作客，沧桑浮云一瞬间。决计写些什么，聊以慰藉惨淡人生。</p>
 
 	
@@ -381,7 +381,7 @@ var _hmt = _hmt || [];
   <div class="row">
 	
 	
-		<h1 id="二月初三：晴而无云"><a href="#二月初三：晴而无云" class="headerlink" title="二月初三：晴而无云"></a>二月初三：晴而无云</h1><p>天略热燥，须再松动琴弦。然一曲未完，便有电话呼唤。须臾之间，又有消息若干。一日下来，代码未几，文档亦未成篇。正月已过，恍然思绪万千。消逝年华，回首徒留遗憾。</p>
+		<h4 id="二月初三：晴而无云"><a href="#二月初三：晴而无云" class="headerlink" title="二月初三：晴而无云"></a>二月初三：晴而无云</h4><p>天略热燥，须再松动琴弦。然一曲未完，便有电话呼唤。须臾之间，又有消息若干。一日下来，代码未几，文档亦未成篇。正月已过，恍然思绪万千。消逝年华，回首徒留遗憾。</p>
 <p>万里悲秋常作客，沧桑浮云一瞬间。决计写些什么，聊以慰藉惨淡人生。</p>
 
 	
