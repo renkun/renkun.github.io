@@ -590,7 +590,7 @@ code {
 }
 
 a.fancybox-nav:hover {
-    background: null
+    background: none
 }
 .fancybox-close:hover {
     background: url("../fancybox/fancybox_sprite.png")
