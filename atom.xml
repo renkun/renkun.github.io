@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kun.ren/"/>
-  <updated>2020-03-02T17:41:33.182Z</updated>
+  <updated>2020-03-02T18:08:59.873Z</updated>
   <id>https://kun.ren/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>假装下江南</title>
+    <link href="https://kun.ren/2020/03/03/%E5%81%87%E8%A3%85%E4%B8%8B%E6%B1%9F%E5%8D%97/"/>
+    <id>https://kun.ren/2020/03/03/%E5%81%87%E8%A3%85%E4%B8%8B%E6%B1%9F%E5%8D%97/</id>
+    <published>2020-03-02T17:59:17.000Z</published>
+    <updated>2020-03-02T18:08:59.873Z</updated>
+    
+    <content type="html"><![CDATA[<p>天翻地覆慨而慷，<br>整天在家憋得慌。<br>春来江水绿如蓝，<br>假装下江南。</p><p><img src="/images/pasted-1.png" alt="upload successful"></p><p><img src="/images/pasted-2.png" alt="upload successful"></p><p><img src="/images/pasted-3.png" alt="upload successful"></p><p><img src="/images/pasted-4.png" alt="upload successful"></p><p><img src="/images/pasted-5.png" alt="upload successful"></p><p><img src="/images/pasted-6.png" alt="upload successful"></p><p><img src="/images/pasted-7.png" alt="upload successful"></p><p><img src="/images/pasted-8.png" alt="upload successful"></p><p><img src="/images/pasted-9.png" alt="upload successful"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;天翻地覆慨而慷，&lt;br&gt;整天在家憋得慌。&lt;br&gt;春来江水绿如蓝，&lt;br&gt;假装下江南。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-1.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-2.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-3.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-4.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-5.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-6.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-7.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-8.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/pasted-9.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>使用JS收发BLE蓝牙串口数据</title>
