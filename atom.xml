@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kun.ren/"/>
-  <updated>2020-03-02T18:08:59.873Z</updated>
+  <updated>2020-03-07T18:17:49.858Z</updated>
   <id>https://kun.ren/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SCRUM in Telecommuting &amp; Offshore Works</title>
+    <link href="https://kun.ren/2020/03/08/SCRUM-in-Telecommuting-Offshore-Works/"/>
+    <id>https://kun.ren/2020/03/08/SCRUM-in-Telecommuting-Offshore-Works/</id>
+    <published>2020-03-07T17:55:40.000Z</published>
+    <updated>2020-03-07T18:17:49.858Z</updated>
+    
+    <content type="html"><![CDATA[<p>在远程办公过程中怎么实践SCRUM</p><h3 id="PDF-版本"><a href="#PDF-版本" class="headerlink" title="PDF 版本"></a>PDF 版本</h3><div class="row">    <embed src="./uploads/SCRUM%20in%20Telecommuting%20&amp;%20Offshore%20Works.pdf" width="100%" height="550" type="application/pdf"></div><hr><h3 id="视频版本"><a href="#视频版本" class="headerlink" title="视频版本"></a>视频版本</h3><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","video":{"url":"./uploads/SCRUM%20in%20Telecommuting%20&%20Offshore%20Works.m4v"},"danmaku":{"api":"http://dplayer.daoapp.io","token":"none"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在远程办公过程中怎么实践SCRUM&lt;/p&gt;
+&lt;h3 id=&quot;PDF-版本&quot;&gt;&lt;a href=&quot;#PDF-版本&quot; class=&quot;headerlink&quot; title=&quot;PDF 版本&quot;&gt;&lt;/a&gt;PDF 版本&lt;/h3&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;./uploads/SCRUM%20in%20Telecommuting%20&amp;amp;%20Offshore%20Works.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot; type=&quot;application/pdf&quot;&gt;
+	&lt;/div&gt;
+
+
+
+
+&lt;hr&gt;
+&lt;h3 id=&quot;视频版本&quot;&gt;&lt;a href=&quot;#视频版本&quot; class=&quot;headerlink&quot; title=&quot;视频版本&quot;&gt;&lt;/a&gt;视频版本&lt;/h3&gt;&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-bottom: 20px;&quot;&gt;&lt;/div&gt;&lt;script&gt;(function(){var player = new DPlayer({&quot;container&quot;:document.getElementById(&quot;dplayer0&quot;),&quot;theme&quot;:&quot;#FADFA3&quot;,&quot;video&quot;:{&quot;url&quot;:&quot;./uploads/SCRUM%20in%20Telecommuting%20&amp;%20Offshore%20Works.m4v&quot;},&quot;danmaku&quot;:{&quot;api&quot;:&quot;http://dplayer.daoapp.io&quot;,&quot;token&quot;:&quot;none&quot;}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()&lt;/script&gt;
+
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>假装下江南</title>
