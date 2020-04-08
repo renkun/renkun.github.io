@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kun.ren/"/>
-  <updated>2020-03-22T17:45:32.480Z</updated>
+  <updated>2020-04-08T18:36:47.687Z</updated>
   <id>https://kun.ren/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工行网银为什么这么烂</title>
+    <link href="https://kun.ren/2020/04/09/%E5%B7%A5%E8%A1%8C%E7%BD%91%E9%93%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E7%83%82-1/"/>
+    <id>https://kun.ren/2020/04/09/%E5%B7%A5%E8%A1%8C%E7%BD%91%E9%93%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E7%83%82-1/</id>
+    <published>2020-04-08T18:35:21.000Z</published>
+    <updated>2020-04-08T18:36:47.687Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>烂是一种结果，但是为什么这么烂，却总是有原因的。</p></blockquote><p>我需要将工行上的钱转账出去给别人，不想迎来了噩梦般的用户体验。</p><h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>我的工商银行网银帐号大约有13年的历史。10多年前通过工银网银购买纸黄金玩过一阵子，经常登录。后来发现招行也推出并且更好之后，也就不经常用了。前几年又通过它买过原油，然而太麻烦，并且手续费太高，后来也不用了。平时只是用来还房贷，同时偶尔收款和交电费之用。交易不算多，但是流水尚可。我安装的有安卓版、iOS两个版本的手机网银，PC浏览器端有U盾。我对其应该算是非常熟悉。但是不怎么用windows之后，近几年都是通过手机银行操作比较多。</p><p>作为一个大龄程序员，IT相关使用知识和能力就不说了。</p><h3 id="噩梦经历"><a href="#噩梦经历" class="headerlink" title="噩梦经历"></a>噩梦经历</h3><ol><li>因为此次转账金额超过2W每笔的限额，安卓手机银行显示无可用认证方式</li><li>用的是MAC电脑，在chrome提示下载登录插件，安装dmg文件后，重启刷新Chrome依然提示下载插件</li><li>改换用Safari，同上</li><li>改换用firefox，同上</li><li>登录windows系统，打开IE，在登录页面卡顿异常</li><li>遂更换使用windows下Chrome，安装Chrome插件后，无作用</li><li>换回IE，升级工银助手，可以登录进去。于是开始转账，到确认页面，提示插入U盾。插入后，输入验证码点击提交，页面提示没有U盾</li><li>返回上一步，然后再继续下一步。U盾灯常亮，然而页面卡死，无相应</li><li>退出IE，重新尝试以上几次，依然是卡死</li><li>更换Edge，提示该网站不支持，建议使用IE</li><li>用工银助手重新检测U盾，无误后重启电脑。重复以上步骤，可以检测到U盾。但是输入U盾密码的窗口失去焦点，无法输入</li><li>再次退出IE，重复以上步骤，终于转账成功！！！</li></ol><p>先不说用户体验，单就功能无法完成操作，前后花了1个多小时，中间好几次气得想去银行注销帐号！！！</p><h3 id="为什么？"><a href="#为什么？" class="headerlink" title="为什么？"></a>为什么？</h3><p>工行的资金和背景实力毋容置疑，依靠垄断地位，资源和资金国内首屈一指，但是为什么它的网银这么差，并且这么多年一直这么差，并且还没有为此承担什么？除去它本身国企+金融老大的地位，我们能窥探到什么？</p><p>工行的网银系统是由中国工商银行软件开发中心研发的。这里由这个中心的介绍：<a href="https://wenku.baidu.com/view/6da75c56cd1755270722192e453610661ed95afa.html" target="_blank" rel="noopener">https://wenku.baidu.com/view/6da75c56cd1755270722192e453610661ed95afa.html</a> 表面样子还是不错的，至少挺唬人的。</p><p>我们看看其他一些资料:</p><p>看他们的招标信息：<a href="http://mall.icbc.com.cn/notice/queryAnnouncementInfo.jhtml?annouId=0000000876&amp;page_code=00002&amp;area_col_code=" target="_blank" rel="noopener">http://mall.icbc.com.cn/notice/queryAnnouncementInfo.jhtml?annouId=0000000876&amp;page_code=00002&amp;area_col_code=</a> 把一些文档下载之后，首先从范围上你会发现，这个中心缺乏的能力是什么。同时如果你熟悉常规的项目招标，你就会明白有多少公司依附着它生存，这些招标能带来什么实质上的改变？</p><p>看他们的招聘信息：<a href="https://job.icbc.com.cn/pc/index.html#/main/home" target="_blank" rel="noopener">https://job.icbc.com.cn/pc/index.html#/main/home</a> 只有校招，没有社招。怎么会有技术牛人的出现和生存的土壤？</p><p>看一些人的评价：<a href="https://www.zhihu.com/question/27764524/answer/714055814" target="_blank" rel="noopener">https://www.zhihu.com/question/27764524/answer/714055814</a> 牛人留不住，留住的都是尸位素餐的正规人员，出活需要驻场开发的外包人员。</p><p>以上，你头脑会有初步的概念，这样的中心怎么能打造出好的产品？</p><h3 id="怎么办？"><a href="#怎么办？" class="headerlink" title="怎么办？"></a>怎么办？</h3><p>将来几年随着金融业的改革，以及银行红利的消失，工行本身的重要性肯定会被其他的一些替代。如果没有真正做事儿的人出现，那衰败不可避免，只能越来越边缘化（如建行、农行）。</p><p>网银这里，国企研发这种模式不改变，不可能会更好。</p><p>短期解决办法：</p><ol><li>工行领导层的IT和用户意识</li><li>摒弃各种裙带关系</li><li>软开中心大改革，将研发职能转化为产品&amp;运营中心</li><li>空降一个有魄力的产品负责人</li><li>系统切割成低耦合的系统</li><li>引入社会力量</li><li>参考招行的模式</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;烂是一种结果，但是为什么这么烂，却总是有原因的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我需要将工行上的钱转账出去给别人，不想迎来了噩梦般的用户体验。&lt;/p&gt;
+&lt;h3 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h3&gt;&lt;p&gt;我的工商银行网银帐号大约有13年的历史。10多年前通过工银网银购买纸黄金玩过一阵子，经常登录。后来发现招行也推出并且更好之后，也就不经常用了。前几年又通过它买过原油，然而太麻烦，并且手续费太高，后来也不用了。平时只是用来还房贷，同时偶尔收款和交电费之用。交易不算多，但是流水尚可。我安装的有安卓版、iOS两个版本的手机网银，PC浏览器端有U盾。我对其应该算是非常熟悉。但是不怎么用windows之后，近几年都是通过手机银行操作比较多。&lt;/p&gt;
+&lt;p&gt;作为一个大龄程序员，IT相关使用知识和能力就不说了。&lt;/p&gt;
+&lt;h3 id=&quot;噩梦经历&quot;&gt;&lt;a href=&quot;#噩梦经历&quot; class=&quot;headerlink&quot; title=&quot;噩梦经历&quot;&gt;&lt;/a&gt;噩梦经历&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;因为此次转账金额超过2W每笔的限额，安卓手机银行显示无可用认证方式&lt;/li&gt;
+&lt;li&gt;用的是MAC电脑，在chrome提示下载登录插件，安装dmg文件后，重启刷新Chrome依然提示下载插件&lt;/li&gt;
+&lt;li&gt;改换用Safari，同上&lt;/li&gt;
+&lt;li&gt;改换用firefox，同上&lt;/li&gt;
+&lt;li&gt;登录windows系统，打开IE，在登录页面卡顿异常&lt;/li&gt;
+&lt;li&gt;遂更换使用windows下Chrome，安装Chrome插件后，无作用&lt;/li&gt;
+&lt;li&gt;换回IE，升级工银助手，可以登录进去。于是开始转账，到确认页面，提示插入U盾。插入后，输入验证码点击提交，页面提示没有U盾&lt;/li&gt;
+&lt;li&gt;返回上一步，然后再继续下一步。U盾灯常亮，然而页面卡死，无相应&lt;/li&gt;
+&lt;li&gt;退出IE，重新尝试以上几次，依然是卡死&lt;/li&gt;
+&lt;li&gt;更换Edge，提示该网站不支持，建议使用IE&lt;/li&gt;
+&lt;li&gt;用工银助手重新检测U盾，无误后重启电脑。重复以上步骤，可以检测到U盾。但是输入U盾密码的窗口失去焦点，无法输入&lt;/li&gt;
+&lt;li&gt;再次退出IE，重复以上步骤，终于转账成功！！！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;先不说用户体验，单就功能无法完成操作，前后花了1个多小时，中间好几次气得想去银行注销帐号！！！&lt;/p&gt;
+&lt;h3 id=&quot;为什么？&quot;&gt;&lt;a href=&quot;#为什么？&quot; class=&quot;headerlink&quot; title=&quot;为什么？&quot;&gt;&lt;/a&gt;为什么？&lt;/h3&gt;&lt;p&gt;工行的资金和背景实力毋容置疑，依靠垄断地位，资源和资金国内首屈一指，但是为什么它的网银这么差，并且这么多年一直这么差，并且还没有为此承担什么？除去它本身国企+金融老大的地位，我们能窥探到什么？&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>疫情下时政分析一</title>
