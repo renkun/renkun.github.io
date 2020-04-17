@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kun.ren/"/>
-  <updated>2020-04-08T18:36:47.687Z</updated>
+  <updated>2020-04-17T18:29:08.002Z</updated>
   <id>https://kun.ren/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>头脑混乱和粗心造成的怀疑人生</title>
+    <link href="https://kun.ren/2020/04/18/%E5%A4%B4%E8%84%91%E6%B7%B7%E4%B9%B1%E5%92%8C%E7%B2%97%E5%BF%83%E9%80%A0%E6%88%90%E7%9A%84%E6%80%80%E7%96%91%E4%BA%BA%E7%94%9F/"/>
+    <id>https://kun.ren/2020/04/18/%E5%A4%B4%E8%84%91%E6%B7%B7%E4%B9%B1%E5%92%8C%E7%B2%97%E5%BF%83%E9%80%A0%E6%88%90%E7%9A%84%E6%80%80%E7%96%91%E4%BA%BA%E7%94%9F/</id>
+    <published>2020-04-17T18:28:57.000Z</published>
+    <updated>2020-04-17T18:29:08.002Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>制造问题的能力远远大于解决问题的能力。今天的遭遇让我怀疑人生。</p></blockquote><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>我在内网的一台ubuntu电脑上，一直有建立一个SSH的隧道，将内网的一个设备端口映射到云端ubuntu服务器上，经常手动执行。如往常一样，我开始运行如下代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ssh -Nf -R xx1.xx1.xx1.xx1:xxx1:xx2.xx2.xx2.xx2:xxx2 ubuntu@xx1.xx1.xx1.xx1 -p 22</span><br></pre></td></tr></table></figure><p>提示如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[sudo] password <span class="keyword">for</span> ubuntu:</span><br></pre></td></tr></table></figure><p>于是粘贴输入云端服务器<code>xx1.xx1.xx1.xx1</code>的ubuntu密码，如同过往的很多次。然而……提示密码错误。重新复制密码，确实前后不带空格，粘贴后，依然错误！好吧，可能有什么问题，密码我一个一个字符输入。试了3遍，仍然错误！！！！！！！</p><p>真是奇哉怪也。莫非谁改了云端密码？我直接登录下试试，输入如下指令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh ubuntu@xx1.xx1.xx1.xx1 -p 22</span><br></pre></td></tr></table></figure><p>提示输入密码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ubuntu@xx1.xx1.xx1.xx1&#39;s password:</span><br></pre></td></tr></table></figure><p>粘贴上面复制密码，登录成功！！！奇怪。。。</p><p>退出后，再执行上面ssh隧道指令，粘贴密码，依然错误！重复若干次，依然错误！！！！！</p><h3 id="困惑"><a href="#困惑" class="headerlink" title="困惑"></a>困惑</h3><p>我检查了好多遍，修改了几个指令尝试，甚至Google了相关问题，依然无果。</p><p>谁能告诉我怎么了？？？！！！</p><p>生气！！！！</p><h3 id="柳暗花明"><a href="#柳暗花明" class="headerlink" title="柳暗花明"></a>柳暗花明</h3><p>气不过，饭还得吃，吃完喝了杯咖啡。然后回到电脑前执行上面的命令，恍然间，如佛祖坐在菩提树下，突然顿悟了…</p><p>…</p><p>…</p><p>…</p><p>…</p><p>…</p><p>原来<code>[sudo] password for ubuntu:</code>是要输入当前这个电脑（内网ubuntu）的sudo密码！！！而我看到让输入密码，就一直粘贴的是云端服务器的ubuntu密码！！！而登录云端服务器提示密码应该是<code>ubuntu@xx1.xx1.xx1.xx1&#39;s password:</code> </p><p>我一直在干嘛？？？</p><p>脑子锈掉了？？？</p><p>WTF!!!</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;制造问题的能力远远大于解决问题的能力。今天的遭遇让我怀疑人生。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h3&gt;&lt;p&gt;我在内网的一台ubuntu电脑上，一直有建立一个SSH的隧道，将内网的一个设备端口映射到云端ubuntu服务器上，经常手动执行。如往常一样，我开始运行如下代码：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo ssh -Nf -R xx1.xx1.xx1.xx1:xxx1:xx2.xx2.xx2.xx2:xxx2 ubuntu@xx1.xx1.xx1.xx1 -p 22&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;提示如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[sudo] password &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; ubuntu:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;于是粘贴输入云端服务器&lt;code&gt;xx1.xx1.xx1.xx1&lt;/code&gt;的ubuntu密码，如同过往的很多次。然而……提示密码错误。重新复制密码，确实前后不带空格，粘贴后，依然错误！好吧，可能有什么问题，密码我一个一个字符输入。试了3遍，仍然错误！！！！！！！&lt;/p&gt;
+&lt;p&gt;真是奇哉怪也。莫非谁改了云端密码？我直接登录下试试，输入如下指令&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ssh ubuntu@xx1.xx1.xx1.xx1 -p 22&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;提示输入密码：&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>工行网银为什么这么烂</title>
